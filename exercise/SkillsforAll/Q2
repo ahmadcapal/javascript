@@ -1,0 +1,29 @@
+//quantity
+let roseQty = 70;
+let lilyQty = 50;
+let tulipQty = 120;
+
+//price
+const rosePrice =8;
+const lilyPrice = 10;
+const tulipPrice = 2;
+
+//Value
+let roseVal = roseQty * rosePrice;
+let lilyVal = lilyQty * lilyPrice;
+let tulipVal = tulipQty * tulipPrice;
+
+let total = roseVal + lilyVal + tulipVal;
+
+console.log("Rose - Unit price:", rosePrice,  ", quantity: ", roseQty,", Value: ",roseVal);
+console.log("Lily - Unit price:", lilyPrice,  ", quantity: ", lilyQty, ", Value: ",lilyVal);
+console.log("Tulip - Unit price:", tulipPrice, ", quantity: ", tulipQty, ", Value: ",tulipVal);
+console.log("Total: ",total)
+
+roseQty = roseQty - 30
+lilyQty = lilyQty -20;
+
+console.log("Rose - Unit price:", rosePrice,  ", quantity: ", roseQty,", Value: ",roseVal);
+console.log("Lily - Unit price:", lilyPrice,  ", quantity: ", lilyQty, ", Value: ",lilyVal);
+console.log("Tulip - Unit price:", tulipPrice, ", quantity: ", tulipQty, ", Value: ",tulipVal);
+console.log("Total: ",total)
