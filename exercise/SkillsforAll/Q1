@@ -1,0 +1,21 @@
+//quantity
+let roseQty = 70;
+let lilyQty = 50;
+let tulipQty = 120;
+
+//price
+let rosePrice =8;
+let lilyPrice = 10;
+let tulipPrice = 2;
+
+//Value
+let roseVal = roseQty * rosePrice;
+let lilyVal = lilyQty * lilyPrice;
+let tulipVal = tulipQty * tulipPrice;
+
+var total = roseVal + lilyVal + tulipVal;
+
+console.log("Rose - Unit price:", rosePrice,  ", quantity: ", roseQty,", Value: ",roseVal);
+console.log("Lily - Unit price:", lilyPrice,  ", quantity: ", lilyQty, ", Value: ",lilyPrice);
+console.log("Tulip - Unit price:", tulipPrice, ", quantity: ", tulipQty, ", Value: ",tulipVal);
+console.log("Total: ",total)
