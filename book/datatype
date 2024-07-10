@@ -1,5 +1,0 @@
-let book = {
-    topic: "Javascript",
-    edition: 7
-};
-console.log(book.topic,book["edition"], book.author = "Flanagan", book.content = {});
